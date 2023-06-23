@@ -1,0 +1,94 @@
+body {
+	font-family: Arial, sans-serif;
+}
+.container {
+	max-width: 1260px;
+	margin: 0 auto;
+	padding: 20px;
+}
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo {
+	width: 200px;
+}
+.search {
+	display: flex;
+	align-items: center;
+	;
+}
+.search input[type="text"] {
+	margin-right: 10px;
+	width: 600px;
+	height: 35px;
+
+}
+.button {
+	padding: 10px 20px;
+	border-radius: 14px;
+	background-color: #A0CCFF;
+	color: #FFFFFF;
+	font-family: 'Inder', Arial, sans-serif;
+	font-size: 20px;
+	border: none;
+}
+.navbar {
+	margin-top: 20px;
+	text-align: center;
+}
+.navbar a {
+	display: inline-block;
+	margin: 0 10px;
+	padding: 10px;
+	font-size: 23px;
+	text-decoration: none;
+}
+.hotels {
+	color: #082FBA;
+}
+.clinics {
+	color: #CF16DF;
+}
+.pet-shops {
+	color: #E8001C;
+}
+.about-us {
+	color: #16BB07;
+}
+.separator {
+	border-bottom: 1px solid #000000;
+	margin: 20px 0;
+}
+.rectangle {
+	background-color: #C7C5ED;
+	width: 1260px;
+	height: 360px;
+	margin: 0 auto;
+	margin-top: 50px;
+	padding: 20px;
+	text-align: left;
+	color: #000000;
+	font-family: 'Jomolhari', Arial, sans-serif;
+	font-size: 25px;
+}
+.caption {
+	text-transform: uppercase;
+	font-size: 30px;
+	color: #D15C5C;
+	text-align: center;
+	margin-top: 20px;
+}
+.rectangle-alt {
+	background-color: #FF8C8C;
+	width: 1260px;
+	height: 360px;
+	margin: 0 auto;
+	margin-top: 50px;
+	padding: 20px;
+	text-align: left;
+	color: #000000;
+	font-family: 'Jomolhari', Arial, sans-serif;
+	font-size: 25px;
+}
