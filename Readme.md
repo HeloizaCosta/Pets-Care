@@ -12,7 +12,7 @@ Esse negócio traz como proposta reduzir o tempo e facilitar a procura por clín
 💡 *PMI I*
 
 🔗 _*url github:*_
-🛬 _*url landpage:*_
+🛬 _*url landpage:*_ https://heloizacosta.github.io/petsfloripa/
 🤝 _*url Modelo Negócio (imagem):*_
 🗓️ _*url Product Backlog:*_
 -------------------
