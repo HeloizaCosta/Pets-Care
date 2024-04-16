@@ -1,0 +1,151 @@
+*{
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+.app {
+  background-image: linear-gradient(to bottom, #9C51FD, #8D3FE6,#8D3FE6,#490092);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 740px;
+}
+
+.logo {
+  position: absolute;
+  top: 20px; /* Distância do topo */
+  left: 20px; /* Distância da esquerda */
+  width: 200px; /* Largura da imagem */
+  height: auto; /* Altura ajustável para manter a proporção */
+}
+
+.home-container {
+  text-align: center;
+  color:#3e037a;
+  font-size:25px;
+  margin-bottom: 40px;
+}
+
+.form-container {
+  display: flex; /* Adicionando display: flex para alinhar os componentes lado a lado */
+  justify-content: space-between; /* Adicionando espaço entre os contêineres */
+}
+
+.login-container button {
+  margin-top: 20px;
+  font-size:14px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 12px;
+  height: 25px;
+  width: 100px;
+}
+
+.login-container button [submit]{
+  margin-top: 20px;
+  font-size: 14px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 12px;
+  height: 25px;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login-label {
+  display: block;
+  margin-bottom: 5px;
+  color: white;
+  text-align: center;
+}
+
+.cadastro-container button[type=submit] {
+  margin-top: 20px;
+  font-size:14px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 12px;
+  height: 25px;
+  width: 100px;
+}
+
+.cadastro-container button {
+  margin-top: 20px;
+  font-size:14px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 12px;
+  height: 25px;
+  width: 100px;
+}
+
+
+.cadastro-label {
+  display: block;
+  margin-bottom: 5px;
+  color: white;
+  text-align: center;
+}
+
+.login-container,
+.cadastro-container {
+  background-color: transparent;
+  border: 2px solid #ffffff; 
+  width: 400px;
+  text-align: center;
+  height: 450px;
+  margin: 20px;
+  padding: 20px;
+  margin-left:100px;
+  margin-right:100px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2,
+.cadastro-container h2 {
+  margin-bottom:50px;
+  color:#3a0471;
+  text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+.login-container form,
+.cadastro-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-container form input,
+.cadastro-container form input,
+.login-container form button,
+.cadastro-container form button {
+
+  margin-bottom: 12px;
+  border-radius: 7px;
+  height: 20px;
+  width:350px;
+  padding-left: 5px;
+  border: 2px solid #ffffff; 
+}
+
+.social-login {
+  margin-top: 20px;
+}
+
+.social-login button {
+  margin-right: 10px;
+}
+
+.terms {
+  margin-top: 20px;
+  color:white
+}
+
+.terms label {
+  margin-left: 5px;
+}
